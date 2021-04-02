@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "public": false,
+    "functions": {
+        "api/client.py": {
+          "memory": 1024,
+          "maxDuration": 10
+        }
+    },
+    "routes": [
+        // {
+        //     "src": "/hello",
+        //     "dest": "api/index.py" 
+        // },
+        {
+            "src": "/",
+            "dest": "index.html"
+        }
+    ]
+}
