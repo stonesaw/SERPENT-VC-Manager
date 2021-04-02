@@ -8,10 +8,6 @@
         }
     },
     "routes": [
-        // {
-        //     "src": "/hello",
-        //     "dest": "api/index.py" 
-        // },
         {
             "src": "/",
             "dest": "index.html"
